@@ -1,0 +1,33 @@
+{
+    "db":{
+        "db_host":"10.10.10.42",
+        "db_name":"tlk_db",
+        "db_user":"tlk_db",
+        "db_password":"sdM5dt61LDXmV#z"
+    },
+
+    "api_info":{
+        "user":"sviluppoapp@dedem.it",
+        "pwd":"2Yk9[qqx)@@HrqP2",
+        "api_sendDataRaw":"https://tlk-svi.dedemapp.com/api/SendTrace",
+        "api_sendCmdAnswer":"https://tlk-svi.dedemapp.com/api/SendCommandAnswer"
+    },
+
+    "socket":{
+        "after_idle_sec":"1",
+        "interval_sec":"3",
+        "max_fails":"5",
+        "host":"0.0.0.0",
+        "port_mdm":"9005",
+        "port_cmd":"9909",
+        "ThreadCount":"0",
+        "bytes_recv":"2048",
+        "decoder":"utf-8",
+        "timer_commands":"3",
+        "code_socket_closed":"-1",
+        "timeout_not_registered":"30",
+        "timeout_registered ":"60",
+        "timer_keep_alive":"60"
+    }
+
+}
